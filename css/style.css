@@ -28,6 +28,7 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 600;
+  color: var(--color-heading);
 }
 a {
   text-decoration: none;
@@ -68,6 +69,11 @@ img {
 }
 
 /* Header */
+
+.link-logo {
+  display: inline-block;
+  margin: 0 auto;
+}
 
 .logo-icon {
   margin-bottom: 64px;
@@ -119,4 +125,39 @@ img {
   font-weight: 600;
   line-height: 1.66;
   letter-spacing: 0.5px;
+}
+
+/* Second section */
+
+.title-snippets {
+  margin-bottom: 16px;
+}
+
+.snippets {
+  margin-bottom: 65px;
+}
+
+.desctop {
+  margin-bottom: 56px;
+}
+
+.sked-possibilities {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 186px;
+}
+
+.title-possibilities {
+  margin-bottom: 10px;
+}
+
+/* Third section */
+
+.title-access {
+  margin-bottom: 16px;
+}
+
+.text-access {
+  margin-bottom: 65px;
 }

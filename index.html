@@ -21,6 +21,7 @@
     <!-- Header -->
     <header>
       <div class="container">
+        <a class="link-logo" href="#">
         <svg class="logo-icon">
           <use
             href="./images/icon.svg#icon-combined-shape"
@@ -28,6 +29,7 @@
             height="125"
           ></use>
         </svg>
+      </a>
       </div>
     </header>
     <!-- End header -->
@@ -62,38 +64,40 @@
       <!-- Second section -->
       <section>
         <div class="container">
-          <h2>Keep track of your snippets</h2>
-          <p>
+          <h2 class="title-snippets">Keep track of your snippets</h2>
+          <p class="snippets">
             Clipboard instantly stores any item you copy in the cloud, meaning
             you can access your snippets immediately on all your devices. Our
             Mac and iOS apps will help you organize everything.
           </p>
-          <img
+          <img class="desctop"
             src="./images/second.png"
             srcset="./images/second.png 1x, ./images/second@2x.png 2x"
             alt="Computer"
             width="312"
           />
 
-          <ul>
-            <li>
-              <h3>Quick Search</h3>
-              <p>
+          <ul class="list-possibilities">
+            <div class="sked-possibilities">
+            <li class="possibilities">
+              <h3 class="title-possibilities">Quick Search</h3>
+              <p class="text-possibilities">
                 Easily search your snippets by content, category, web address,
                 application, and more.
               </p>
             </li>
-            <li>
-              <h3>iCloud Sync</h3>
-              <p>Instantly saves and syncs snippets across all your devices.</p>
+            <li class="possibilities">
+              <h3 class="title-possibilities">iCloud Sync</h3>
+              <p class="text-possibilities">Instantly saves and syncs snippets across all your devices.</p>
             </li>
-            <li>
-              <h3>Complete History</h3>
-              <p>
+            <li class="possibilities">
+              <h3 class="title-possibilities">Complete History</h3>
+              <p class="text-possibilities">
                 Retrieve any snippets from the first moment you started using
                 the app.
               </p>
             </li>
+          </div>
           </ul>
         </div>
       </section>
@@ -101,12 +105,12 @@
       <!-- Third section  -->
       <section>
         <div class="container">
-          <h2>Access Clipboard Anywhere</h2>
-          <p>
+          <h2 class="title-access">Access Clipboard Anywhere</h2>
+          <p class="text-access">
             Whether you’re on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
           </p>
-          <img
+          <img class="tab"
             src="./images/third.png"
             srcset="./images/third.png 1x, ./images/third@2x.png 2x"
             alt="Tablet and phone"
